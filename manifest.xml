@@ -40,7 +40,7 @@
           <Icon>
             <bt:Image size="16" resid="icon16"/>
             <bt:Image size="32" resid="icon32"/>
-            <bt:Image size="80" resid="icon80"/>
+            <bt:Image size="64" resid="icon64"/>
           </Icon>
           <Action xsi:type="ShowTaskpane">
             <SourceLocation resid="taskpaneUrl"/>
@@ -54,7 +54,7 @@
     <bt:Images>
       <bt:Image id="icon16" DefaultValue="https://liamkstandard.github.io/OTSOutlookAddin/icon16.png"/>
       <bt:Image id="icon32" DefaultValue="https://liamkstandard.github.io/OTSOutlookAddin/icon32.png"/>
-      <bt:Image id="icon80" DefaultValue="https://liamkstandard.github.io/OTSOutlookAddin/icon80.png"/>
+      <bt:Image id="icon64" DefaultValue="https://liamkstandard.github.io/OTSOutlookAddin/icon64.png"/>
     </bt:Images>
     <bt:Urls>
       <bt:Url id="taskpaneUrl" DefaultValue="https://liamkstandard.github.io/OTSOutlookAddin/taskpane.html"/>
