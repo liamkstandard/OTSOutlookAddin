@@ -12,7 +12,7 @@
     async function createSecret() {
       const secretText = document.getElementById("secret").value;
 
-      const response = await fetch("https://onetimesecret.com/api/v1/share", {
+      const response = await fetch("https://us.onetimesecret.com/api/v1/share, {
         method: "POST",
         headers: {
           "Content-Type": "application/x-www-form-urlencoded"
@@ -22,7 +22,7 @@
 
       if (response.ok) {
         const data = await response.json();
-        const link = "https://ca.onetimesecret.com/secret/" + data.secret_key;
+        const link = "https://us.onetimesecret.com/api/v1/share/" + data.secret_key;
 
         // Insert into the email body
         Office.context.mailbox.item.body.setSelectedDataAsync(
