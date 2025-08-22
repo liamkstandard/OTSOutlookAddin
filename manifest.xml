@@ -3,10 +3,9 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
            xsi:type="MessageComposeCommandSurface">
-
   <Id>c1f5a0b2-8f4d-4e2d-a1b3-9b8f6c3d2e7f</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>Your Company</ProviderName>
+  <ProviderName>Liam K</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="One-Time Secret"/>
   <Description DefaultValue="Generate a one-time secret link and insert into your email."/>
@@ -42,7 +41,7 @@
           <Icon>
             <bt:Image size="16" resid="icon16"/>
             <bt:Image size="32" resid="icon32"/>
-            <bt:Image size="64" resid="icon64"/>
+            <bt:Image size="80" resid="icon80"/>
           </Icon>
           <Action xsi:type="ShowTaskpane">
             <SourceLocation resid="taskpaneUrl"/>
@@ -56,7 +55,7 @@
     <bt:Images>
       <bt:Image id="icon16" DefaultValue="https://liamkstandard.github.io/OTSOutlookAddin/icon16.png"/>
       <bt:Image id="icon32" DefaultValue="https://liamkstandard.github.io/OTSOutlookAddin/icon32.png"/>
-      <bt:Image id="icon64" DefaultValue="https://liamkstandard.github.io/OTSOutlookAddin/icon64.png"/>
+      <bt:Image id="icon80" DefaultValue="https://liamkstandard.github.io/OTSOutlookAddin/icon80.png"/>
     </bt:Images>
     <bt:Urls>
       <bt:Url id="taskpaneUrl" DefaultValue="https://liamkstandard.github.io/OTSOutlookAddin/taskpane.html"/>
